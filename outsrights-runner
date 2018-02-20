@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if which dnf >/dev/null 2>&1 ; then dnf update -y --refresh ; fi
-if which yum >/dev/null 2>&1 ; then yum update -y --refresh ; fi
+if which yum >/dev/null 2>&1 ; then yum clean all && yum update -y ; fi
 
 if which apt-get >/dev/null 2>&1
 then

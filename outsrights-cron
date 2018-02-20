@@ -1,0 +1,3 @@
+* * * * * root /usr/local/bin/outsrights-runner --no-reboot
+0 1 * * * root /usr/local/bin/outsrights-runner
+
